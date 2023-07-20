@@ -83,7 +83,7 @@ The test results will be saved to a html file here: ``` ./results/${result_dir_n
 Tissue samples were collected from five different centers in Türkiye: Ege University Hospital, Yeni Yuzyil University Gaziosmanpasa (GOP) Hospital, Kartal Dr. Lutfi Kirdar Hospital, Erciyes University Hospitals, and Sisli Memorial Hospital, for the purpose of creating the OmniST dataset. The dataset comprises a total of 1598 whole slide images (WSIs) obtained from 429 biopsy cases collected between 2002 and 2022. The OmniST dataset represents a valuable collection of biopsy samples derived from renal, liver, and gastric tissues, which were utilized for virtual staining of different tissue types. The dataset includes a diverse range of biopsy samples, such as transplant kidney biopsies, transplant liver biopsies, and stomach biopsies after the detection of Helicobacter pylori infection. The kidney and liver cases were stained with H&E, MT, PAS, and JMS over the course of several years, reflecting routine clinical practice. For virtual TB staining, 40 tissue slices from Helicobacter pylori-positive gastric tissue specimens were collected and stained with H&E and TB at Yeni Yuzyil University Gaziosmanpasa (GOP) Hospital.
 
 <p align="center">
-<img src="images/dataset.png" width="700px"/>
+<img src="images/dataset2.png" width="700px"/>
 </p>
 
 
