@@ -1,12 +1,12 @@
 # XSTAINER: A NOVEL VIRTUAL STAINING TOOL POWERED BY ADVANCED DEEP LEARNING TECHNIQUES
 <!--  ### [Arxiv](https://arxiv.org/abs/) | [Dataset](https://data.mendeley.com/datasets/x5bft3t993/draft?a=a198bbcc-ae3f-40ac-aea9-95c22536315e) | [WebSite]  --> <!--  (https://deepmia.boun.edu.tr/)  -->
-<img src="images/xstainer_logo.png" width="350px"/> 
+<img src="images/xstainer_logo.png" width="300px"/> 
 
-<img src="images/logo_final3.png" width="350px"/>
+<img src="images/logo_final3.png" width="300px"/>
 
 We introduce a robust, efficient, and high-performing AI-XStainer tool designed to convert conventional H&E-stained WSIs Masson’s trichrome (MT), Periodic acid-Schiff (PAS), Jones methenamine silver (JMS), and Toluidine blue (TB) stained versions, both at the patch-level and slide-level. We also present our publicly available OmniST dataset consisting of patient-based H&E-stained tissue images and equivalent stained tissue images for MT (Kidney), PAS (Kidney), JMS (Kidney), MT (Liver), PAS (Liver), and TB (Stomach), collected from five different centers. 
 
-<img src="images/Figure1.jpeg" width="500px"/>\
+<img src="images/Figure1.jpeg" width="700px"/>\
 *Overview of the study. A) Kidney, liver, and stomach tissue samples, fixed with formalin and embedded in paraffin (FFPE), are stained with H&E and various special stains. These stained images are used as training data for the model, enabling it to learn and recognize specific tissue features. B) The OmniST dataset is a collection we gathered for our virtual staining study, which will be publicly released. C) Separate virtual staining networks are trained for each stain. Whole slide images (WSIs) of kidney, liver, and stomach tissues are first segmented and then divided into smaller patches. Real H&E-stained patches obtained from kidney, liver, and stomach tissue samples are used as input for the virtual staining generator network. The generator network produces corresponding virtually stained patches as output. In the final step, the outputted virtually stained patches are stitched together to provide pathologists with a comprehensive view that allows for detailed examination of specific features, components, and entities to aid in the final diagnosis. This figure was created with BioRender.com.*
 
 #### Example stain transformation results
