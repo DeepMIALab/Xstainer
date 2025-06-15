@@ -4,7 +4,7 @@
 
 <img src="images/logo_final3.png" width="300px"/>
 
-We introduce a robust, efficient, and high-performing AI-XStainer tool designed to convert conventional H&E-stained WSIs Masson’s trichrome (MT), Periodic acid-Schiff (PAS), Jones methenamine silver (JMS), and Toluidine blue (TB) stained versions, both at the patch-level and slide-level. We also present our publicly available OmniST dataset consisting of patient-based H&E-stained tissue images and equivalent stained tissue images for MT (Kidney), PAS (Kidney), JMS (Kidney), MT (Liver), PAS (Liver), and TB (Stomach), collected from five different centers. 
+We introduce a robust, efficient, and high-performing Xstainer tool designed to convert conventional H&E-stained WSIs Masson’s trichrome (MT), Periodic acid-Schiff (PAS), Jones methenamine silver (JMS), and Toluidine blue (TB) stained versions, both at the patch-level and slide-level. We also present our publicly available OmniST dataset consisting of patient-based H&E-stained tissue images and equivalent stained tissue images for MT (Kidney), PAS (Kidney), JMS (Kidney), MT (Liver), PAS (Liver), and TB (Stomach), collected from five different centers. 
 
 <img src="images/Figure1.jpeg" width="700px"/>\
 *Overview of the study. A) Kidney, liver, and stomach tissue samples, fixed with formalin and embedded in paraffin (FFPE), are stained with H&E and various special stains. These stained images are used as training data for the model, enabling it to learn and recognize specific tissue features. B) The OmniST dataset is a collection we gathered for our virtual staining study, which will be publicly released. C) Separate virtual staining networks are trained for each stain. Whole slide images (WSIs) of kidney, liver, and stomach tissues are first segmented and then divided into smaller patches. Real H&E-stained patches obtained from kidney, liver, and stomach tissue samples are used as input for the virtual staining generator network. The generator network produces corresponding virtually stained patches as output. In the final step, the outputted virtually stained patches are stitched together to provide pathologists with a comprehensive view that allows for detailed examination of specific features, components, and entities to aid in the final diagnosis. This figure was created with BioRender.com.*
@@ -23,8 +23,8 @@ We introduce a robust, efficient, and high-performing AI-XStainer tool designed 
 
 - Clone this repo:
 ```bash
-git clone https://github.com/DeepMIALab/AI-XStainer
-cd AI-XStainer
+git clone https://github.com/DeepMIALab/Xstainer
+cd Xstainer
 ```
 
 - Install PyTorch 1.9 and other dependencies (e.g., torchvision, visdom, dominate, gputil).
@@ -73,7 +73,7 @@ The test results will be saved to a html file here: ``` ./results/${result_dir_n
 <img src="images/results1_2.png" width="700px"/>
 </p>
 
-#### Application of AI-XStainer tool with different test cohorts
+#### Application of Xstainer tool with different test cohorts
 <p align="center">
 <img src="images/patch_results2.png" width="800px"/>
 </p>
