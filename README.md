@@ -1,6 +1,6 @@
 # XSTAINER: A NOVEL VIRTUAL STAINING TOOL POWERED BY ADVANCED DEEP LEARNING TECHNIQUES
 <!--  ### [Arxiv](https://arxiv.org/abs/) | [Dataset](https://data.mendeley.com/datasets/x5bft3t993/draft?a=a198bbcc-ae3f-40ac-aea9-95c22536315e) | [WebSite]  --> <!--  (https://deepmia.boun.edu.tr/)  -->
-<img src="images/xstainer_logo.png" width="300px"/> 
+<img src="images/xstainer_logo_2.png" width="300px"/> 
 
 <img src="images/logo_final3.png" width="300px"/>
 
